@@ -18,7 +18,7 @@ include "config/config.php";
     </tr>
 
     <?php
-    $data = mysqli_query($koneksi, "SELECT * FROM siswa ORDER BY id_siswa DESC");
+    $data = mysqli_query($koneksi, "SELECT * FROM siswa");
     if (mysqli_num_rows($data) > 0) {
         while ($d = mysqli_fetch_array($data)) {
     ?>
