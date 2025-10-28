@@ -1,5 +1,5 @@
 <?php 
-include "config/config.php";
+include "../config/config.php";
 $id = $_GET['id'];
 $data = mysqli_query($koneksi, "SELECT * FROM siswa WHERE id_siswa='$id'");
 $d = mysqli_fetch_array($data);

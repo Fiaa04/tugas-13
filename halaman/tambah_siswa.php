@@ -20,7 +20,7 @@
 </form>
 
 <?php
-include "config/config.php";
+include "../config/config.php";
 
 if (isset($_POST['simpan'])) {
     $nama_siswa = $_POST['nama_siswa'];
