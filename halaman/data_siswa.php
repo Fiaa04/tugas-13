@@ -1,5 +1,5 @@
 <?php
-include "config/config.php";
+include "../config/config.php";
 ?>
 
 <h2>📋 Data Siswa</h2>
