@@ -1,0 +1,168 @@
+	body {
+		font-family: 'Poppins', sans-serif;
+		background: #f0f3f9;
+		margin: 0;
+		padding: 0;
+		color: #333;
+	}
+
+	.content {
+		width: 90%;
+		max-width: 1000px;
+		margin: 30px auto;
+		background: #fff;
+		box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	header {
+		background: linear-gradient(135deg, #4c8bf5, #6a5acd);
+		color: white;
+		padding: 30px 20px;
+		text-align: center;
+	}
+
+	header .judul {
+		margin: 0;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	header .deskripsi {
+		margin-top: 8px;
+		font-size: 16px;
+		opacity: 0.9;
+	}
+
+	.menu ul {
+		background: #6a5acd;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu ul li {
+		margin: 0;
+	}
+
+	.menu ul li a {
+		color: white;
+		text-decoration: none;
+		display: block;
+		padding: 15px 25px;
+		font-weight: 600;
+		transition: all 0.3s;
+	}
+
+	.menu ul li a:hover {
+		background: #4c8bf5;
+	}
+
+	.badan {
+		padding: 25px;
+		min-height: 400px;
+	}
+
+	h2 {
+		color: #4c8bf5;
+		margin-bottom: 15px;
+	}
+		
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-top: 15px;
+	}
+
+	th {
+		background: #4c8bf5;
+		color: #fff;
+		padding: 12px;
+		text-align: left;
+	}
+
+	td {
+		background: #f9f9ff;
+		padding: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	tr:hover td {
+		background: #eef4ff;
+	}
+
+	.btn {
+		display: inline-block;
+		padding: 8px 15px;
+		background: #4c8bf5;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 6px;
+		font-size: 14px;
+		transition: background 0.3s;
+	}
+
+	.btn:hover {
+		background: #3b6ee3;
+	}
+
+	.btn.danger {
+		background: #d62828;
+	}
+
+	.btn.danger:hover {
+		background: #b91c1c;
+	}
+
+form {
+	background: #f8faff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+	width: 100%;
+	max-width: 500px;
+}
+
+label {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 600;
+	color: #333;
+}
+
+	input[type="text"],
+	input[type="number"] {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 6px;
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+
+	input[type="submit"] {
+		background: #4c8bf5;
+		color: white;
+		border: none;
+		padding: 10px 15px;
+		border-radius: 6px;
+		cursor: pointer;
+		font-weight: bold;
+		transition: background 0.3s;
+	}
+
+	input[type="submit"]:hover {
+		background: #3b6ee3;
+	}
+
+	footer {
+		background: linear-gradient(135deg, #4c8bf5, #6a5acd);
+		color: white;
+		text-align: center;
+		padding: 15px;
+		font-size: 14px;
+		border-top: 2px solid #fff;
+	}
